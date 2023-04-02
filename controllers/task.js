@@ -11,7 +11,7 @@ export const newTask = async (req, res, next) => {
               user: req.user,
             });
           
-            res.status(201).jsonn({
+            res.status(201).json({
               success: true,
               message: "Task added successfully",
             });
